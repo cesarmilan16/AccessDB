@@ -11,7 +11,7 @@ public class App {
         // Establecer la conexión
         try {
             conexion = DriverManager.getConnection(url, usuario, contraseña);
-            System.out.println("Conexión exitosa a la base de datos MySQL!");
+            System.out.println("Conexión exitosa con la base de datos MySQL!");
 
             // Iniciar la transacción
             conexion.setAutoCommit(false);
